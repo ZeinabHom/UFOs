@@ -76,6 +76,7 @@ we add the below code after all functions to determine event for our page - even
 	
 # CSS
 The below codes make light font color and also add background image in jumbotron part of our page with center text in it.
+
 	 - body { color: #f7f7f7;}
 	 .jumbotron {
 	 background-image: url("../images/nasa.jpg");
