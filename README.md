@@ -73,3 +73,12 @@ when user user filter table, filtered data should be show in a table. FilterTabl
 we add the below code after all functions to determine event for our page - event in this page is change(type in filter table).
 
 	 d3.selectAll("input").on("change",updateFilters);
+	
+# CSS
+The below codes make light font color and also add background image in jumbotron part of our page with center text in it.
+
+	 body { color: #f7f7f7;}
+	 .jumbotron {
+	 background-image: url("../images/nasa.jpg");
+	 background-size: 100%  100%;
+	 text-align: center;}
